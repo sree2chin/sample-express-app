@@ -4,7 +4,7 @@
   "description": "learn express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "author": "Srikanth",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "express": "^4.15.3",
     "multer": "^1.3.0",
     "pug": "^2.0.0-rc.2"
+  },
+  "engines": {
+    "node": "7.5.0"
   }
 }
